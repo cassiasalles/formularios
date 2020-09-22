@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Formulários</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- general css -->
+    <link rel="stylesheet" href="../general.css">
+    <!-- home css -->
+    <link rel="stylesheet" href="./home.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-background header-padding">
+        <a href="/formulario/home/home.html" class="font-28 no-link-style">
+            <label class="font-color-white">Formulário</label>
+        </a>
+        <!-- usuario ficará aqui -->
+        <label id="headerUser" class="float-right font-22 font-color-white header-user-margin" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"></label>
+        <!-- dropdown -->
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id="logout" class="dropdown-item" href="#">Log Out</a>
+        </div>
+    </header>
+    <section>
+        <div class="container col-12">
+            <div class="row col-12">
+                <div class="offset-md-1 col-md-3">
+                    <div class="card card-login-home">
+                        <div class="card-body">
+                            <label class="font-22 font-grey font-bold">Novo formulário</label>
+                            <div class="field-top">
+                                <a href="../create/creat.html" class="btn btn-dark font-bold font-12"> Criar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="card card-login-home">
+                        <div class="card-body">
+                            <label class="font-22 font-grey font-bold">Responder formulário</label>
+                            <div class="field-top">
+                                <a href="../answer/answer.html" class="btn btn-dark font-bold font-12">Responder</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 bottom-40">
+                    <div class="card card-login-home">
+                        <div class="card-body">
+                            <label class="font-22 font-grey font-bold">Histórico de respostas</label>
+                            <div class="field-top">
+                                <a href="../answered/answered_forms.html"
+                                    class="btn btn-dark font-bold font-12">Visualizar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- general script -->
+    <script src="../general.js"></script>
+    <!-- home script -->
+    <script src="./home.js"></script>
+
+</body>
+
+</html>

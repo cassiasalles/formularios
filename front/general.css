@@ -1,0 +1,128 @@
+.card-login-home{
+    padding: 30px !important;
+    box-shadow: 0px 0px 35px 15px #ffffffd9;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.font-32{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+.font-16{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.font-14{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.font-18{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.font-28{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+.font-22{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.font-24{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.field-top{
+    margin-top: 12px;
+}
+header{
+    background-color: rgb(39, 39, 117);
+}
+.no-link-style{
+    text-decoration: none !important;
+}
+.no-link-style:hover {
+    text-decoration: none !important;
+}
+.no-link-style:active {
+    text-decoration: none !important;
+}
+.font-color-white{
+    color: white;
+}
+.font-bold{
+    font-weight: 700 !important;
+}
+.header-padding{
+    padding: 10px 30px;
+}
+.header-user-margin{
+    margin-top: 6px;
+}
+section{
+    background-color: rgb(222 222 255);
+    background-size: 100% 100%;;
+    min-height: 95%;
+}
+html, body{
+    height: 100%;
+}
+.font-grey{
+  color: #727272 !important;
+}
+.path-top {
+    margin-top: 16px;
+}
+.no-margin-padding {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.font-12{
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.top-16{
+    margin-top: 16px;
+}
+.card-content{
+    margin-top: 26px;
+    padding: 16px;
+    box-shadow: 0px 0px 20px 10px #ffffffd9;
+    margin-bottom: 40px;
+}
+.bottom-8 {
+    margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+    .font-28{
+        font-size: 19px !important;
+    }
+    .font-22 {
+        font-size: 12px !important;
+    }
+    html, body {
+        overflow: auto !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .card-login-home {
+        margin-top: 30px !important;
+        margin-bottom: 0px!important;
+    }
+    .bottom-40 {
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    section {
+        height: auto!important;
+    }
+    .no-margin-padding-sm{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .card-content {
+        padding: 0px !important;
+    }
+}
